@@ -3,13 +3,17 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro check --watch & astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.1.7"
+    "astro": "^2.1.9",
+    "scrollreveal": "^4.0.9"
+  },
+  "devDependencies": {
+    "@types/scrollreveal": "^0.0.8"
   }
 }
